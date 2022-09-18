@@ -17,6 +17,7 @@
     margin: 0 auto; 
     margin-top:20px; 
     padding:10px;
+
   }
   menu {
     color: white;
@@ -26,6 +27,16 @@
     margin: 0 auto; 
     margin-top:20px; 
     padding:10px;
+  }
+  ol {
+    color: white;
+    font-size: 30px;
+    max-width:600px; 
+    background-color:  #63cf83; 
+    margin: 0 auto; 
+    margin-top:20px; 
+    padding:10px;
+    list-style-position:inside;
   }
   img#bird{
     float:left;
