@@ -14,7 +14,7 @@
   padding:10px;
 
 }
-ul, menu, table {
+ul#menu li{
   color: white;
   font-size: 30px;
   max-width:600px; 
@@ -22,13 +22,7 @@ ul, menu, table {
   margin: 0 auto; 
   margin-top:20px; 
   padding:10px;
-}
-menu {
-  display: inline;
-  border: 3px solid grey; 
-}
-ol#none {
-  margin-top: 0;
+  display:inline-block; 
 }
   ol, form {
   color: white;
@@ -50,20 +44,23 @@ a{
   color: white; 
   font-weight:bold;
 }
+table { 
+  margin-top:20px; 
+  width: 100%;
+  border-spacing: 0;
+  border: 2px solid gray;
+}
+TD, TH, TR {
+  border: 2px gray;
+  padding: 3px;
+ }
+ tr:nth-child(2n) {
+  background: #3a774c; /* Цвет фона */
+  border: 2px solid gray;
 
-tr#gr {
-  background-color:  white;
-  color:  #63cf83; 
-}
-table {
-  border-collapse: collapse;
-  border: 3px solid grey;
-}
-th, td {
-  border: 3px solid grey;
-}
-ul#menu li{
-
-  display:inline-block; /* расположить пункты горизонтально */
-
-}
+ } 
+ tr:nth-child(2n-1) {
+  border-right: 2px solid gray;
+  background: #14ad42; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+ } 
