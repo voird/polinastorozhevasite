@@ -5,25 +5,24 @@
   font-size: 30px;
 }
 .nav {
-  color: white;
-  font-size: 30px;
-  max-width:800px; 
-  background-color: #c5edd1; 
+  max-width:800px;
+  background-color:#c5edd1; 
   margin: 0 auto; 
   margin-top:20px; 
   padding:10px;
+}
+.menu-c {
+  list-style: none;
+  font-size: 30px;
+  text-align: center;
+}
 
+.menu-c li {
+  background-color:  #63cf83;
+  display:inline-block;
+  padding: 0px 5px;
 }
-ul#menu li{
-  color: white;
-  font-size: 30px;
-  max-width:600px; 
-  background-color: #8adbb0; 
-  margin: 0 auto; 
-  margin-top:20px; 
-  padding:10px;
-  display:inline-block; 
-}
+
   ol, form {
   color: white;
   font-size: 30px;
@@ -44,6 +43,9 @@ a{
   color: white; 
   font-weight:bold;
 }
+h1 {
+margin: 20px;
+}
 table { 
   margin-top:20px; 
   width: 100%;
@@ -51,16 +53,13 @@ table {
   border: 2px solid gray;
 }
 TD, TH, TR {
-  border: 2px gray;
   padding: 3px;
  }
  tr:nth-child(2n) {
-  background: #3a774c; /* Цвет фона */
-  border: 2px solid gray;
-
+  background: #3a774c; 
+  color: #fff;
  } 
  tr:nth-child(2n-1) {
-  border-right: 2px solid gray;
-  background: #14ad42; /* Цвет фона */
-  color: #fff; /* Цвет текста */
+  background: #14ad42; 
+  color: #fff; 
  } 
